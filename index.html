@@ -1,18 +1,36 @@
 <!doctype html>
 <html lang="en">
 <head>
+	<!-- set the encoding of your site -->
 	<meta charset="UTF-8">
+	<!-- set the viewport width and initial-scale on mobile devices -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Hack for the Community</title>
+	<!-- include the site stylesheet -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/all.css">
+	<!-- include jQuery library -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript">window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
+	<!-- include custom JavaScript -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.main.js"></script>
+	<!-- include HTML5 IE enabling script and stylesheet for IE -->
+	<!--[if IE]><script type="text/javascript" src="js/ie.js"></script><![endif]-->
 </head>
 <body>
+	<!-- printversion logo -->
+	<img src="images/logo.png" alt="image description" class="print-logo">
+	<!-- main container of all the page elements -->
 	<div id="wrapper">
+		<!-- header of the page -->
 		<header id="header">
+			<!-- main navigation of the page -->
+			<!-- logo of the page -->
 			<div class="logo-box">
 				<strong class="logo"><a href="#">Hack For The Community - powered by The HCA Foundation</a></strong>
 			</div>
+			<!-- promo block -->
 			<div class="promo-block">
 				<div class="holder">
 					<h1>It takes more than just financial contributions to make a difference, meaningful change requires innovation.</h1>
@@ -24,17 +42,127 @@
 				</div>
 			</div>
 		</header>
-		<section class="tab-section">
+		<!-- tabs section -->
+		<section class="tab-section" id="section-1">
 			<header class="heading">
-				<h2>March 7 &amp; 8, 2014</h2>
-				<h3>8:00AM on FRIDAY — 8:30PM on SATURDAY	</h3>
-				<h4><a href="https://maps.google.com/maps?q=9+Lea+Avenue+Nashville,+TN+37210" target="_blank">Emma</a></h4>
-				<h5>9 Lea Avenue<br>Nashville, TN 37210</h5>
+				<div class="container">
+					<h2>EVENT DETAILS</h2>
+					<ul class="tabset">
+						<li class="active"><a href="#tab-1" class="tab-link" data-toggle="tab">FIND US HERE</a></li>
+						<li><a href="#tab-2" class="tab-link" data-toggle="tab">ITINERARY</a></li>
+						<li><a href="#tab-3" class="tab-link" data-toggle="tab">CODE OF CONDUCT</a></li>
+						<li><a href="https://www.formstack.com/forms/?1657787-fosQSgK0ND">CONTACT</a></li>
+					</ul>
+				</div>
 			</header>
+			<div class="tab tab-pane active" id="tab-1">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-5 col-lg-offset-1">
+							<div class="info">
+								<h3>March 7 &amp; 8, 2014</h3>
+								<span>8:00 AM Friday — 8:30 PM Saturday</span>
+								<h4>Emma</h4>
+								<address>9 Lea Avenue<br>Nashville, TN 37210</address>
+							</div>
+						</div>
+						<div class="col-lg-5">
+							<div class="map-holder">
+								<div class="map-frame">
+									<iframe width="460" height="252" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=9+Lea+Avenue+Nashville,+TN+37210&amp;hl=en&amp;sll=35.830521,-85.978599&amp;sspn=2.916848,3.526611&amp;t=h&amp;hnear=9+Lea+Ave,+Nashville,+Davidson,+Tennessee+37210&amp;ie=UTF8&amp;hq=&amp;z=14&amp;iwloc=A&amp;ll=36.157057,-86.767907&amp;output=embed"></iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tab tab-pane" id="tab-2">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-lg-offset-2">
+							<h3>Itinerary</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-lg-offset-2">
+							<h4>Friday Schedule</h4>
+							<p>8:00 — 9:00 AM<br>Opening Ceremonies, Coffee/Bagels</p>
+							<p>9:00 — 9:30 AM<br>Project Presentations </p>
+							<p>9:30 — 10:00 AM<br>Aligning Projects &amp; Teams </p>
+							<p>10:00 AM — 6:30 PM Saturday<br>Project Development Kick-off</p>
+							<p>Noon<br>Catered Lunch </p>
+							<p>5:00 PM<br>Catered Dinner</p>
+						</div>
+						<div class="col-lg-3 col-lg-offset-2">
+							<h4>Saturday Schedule</h4>
+							<p>8:00 — 9:00 AM<br>Catered Breakfast </p>
+							<p>Noon<br>Catered Lunch </p>
+							<p>5:00 PM<br>Catered Dinner </p>
+							<p>6:30 PM<br>Project Presentations </p>
+							<p>7:45 PM<br>Closing Ceremonies, Awards </p>
+							<p>8:30 PM<br>Event Conclusion</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tab tab-pane" id="tab-3">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-2">
+							<h3>Code of Conduct</h3>
+							<p>Hack for the Community is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants in any form. </p>
+							<p>All communication should be appropriate for a professional audience including people of many different backgrounds. Sexual language and imagery is not appropriate for any conference venue, including talks. </p>
+							<p>Be kind to others. Do not insult or put down other attendees. Behave professionally. Remember that harassment and sexist, racist, or exclusionary jokes are not appropriate for Hack for the Community. </p>
+							<p>Attendees must be 21 years of age or older. Alcohol will be provided at this event, please drink responsibly. Attendees may be asked to present photo identification to verify age at any time, for any reason. </p>
+							<p>Attendees violating these rules may be asked to leave the conference at the sole discretion of the conference organizers. </p>
+							<p>Thank you for helping make this a welcoming, friendly event for all.</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
+		<!-- about section -->
+		<section class="about-section" id="section-2">
+			<div class="container">
+				<h2>ABOUT HACK FOR THE COMMUNITY</h2>
+			</div>
+			<div class="container text">
+				<div class="row">
+					<div class="col-lg-4 col-lg-offset-2">
+						<p>The challenges that the less fortunate in Middle Tennessee are facing everyday are evolving — and the solutions will require creativity and innovation.   The HCA Foundation recognizes that it takes more than just financial contributions to make change.  Finding elegant solutions takes inspiration, it takes ideas, and it takes a team.</p>
+					</div>
+					<div class="col-lg-4">
+						<p>Today, it usually takes technology too. The HCA Foundation is excited to announce Hack for the Community, a 36-hour gathering of Nashville's best visual designers and software developers for the singular purpose of building technology for local agencies that will make an immediate impact on our community.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div id="slide" class="collapse">
+							<p>Unlike other civic or non-profit hackathons Hack for the Community has the financial backing of The HCA Foundation, benefits from the deeply-rooted history HCA has established with many of Nashville's most effective non-profits, and has partnered with Hack Nashville producers Avery Fisher and Brendan Wovchko.  This combination ensures that the best ideas will be connected with organizations who can most powerfully leverage them to help people throughout Middle Tennessee.</p>
+							<p>Non-profits will be selected from The HCA Foundation's pool of non-profit organizations.  Event producers will coach non-profits in identifying the "right size needs" for the event, solicit solutions from Nashville's community of visual designers and software developers, and facilitate the matching of volunteers and projects during the event.</p>
+							<p>The event will conclude with a hackers choice ceremony, where the crowd favorite will receive $2,500 in additional financial support for the continued development of their idea.</p>
+						</div>
+					</div>
+				</div>
+				<span class="btn-more collapsed" data-toggle="collapse" data-target="#slide">more</span>
+			</div>
+		</section>
+		<!-- company section -->
+		<section class="company-section">
+			<div class="container">
+				<h2>PARTICIPATING COMPANIES</h2>
+				<ul class="list">
+					<li><a href="http://hcahealthcare.com" target="_blank"><img src="images/company-1.png" alt="HCA"></a></li>
+					<li><a href="http://healthcareinspired.com" target="_blank"><img src="images/company-2.png" alt="IT&amp;S"></a></li>
+					<li><a href="http://parallon.com" target="_blank"><img src="images/company-3.png" alt="PARALLON"></a></li>
+				</ul>
+			</div>
+		</section>
+		<!-- footer of the page -->
 		<footer id="footer">
 			<div class="holder">
-				<strong class="logo-2"><a href="#">The HCA Foundation - Serving. Leading. Supporting.</a></strong>
+				<strong class="logo-2"><a href="#">the HCA Foundation - Serving. Leading. Supporting.</a></strong>
+				<p>As the philanthropic arm of HCA, the mission of The HCA Foundation is to promote health and well being, support childhood and youth development and foster the arts in Middle Tennessee.  In partnership with the employees of HCA, we seek to accomplish this mission by providing leadership, service and financial support to non-profit organizations effectively engaged in meeting local needs. Organizations with a well-defined sense of purpose, a demonstrated commitment to maximizing available resources, and a history of delivering quality services and meeting objectives are highly encouraged to apply. While providing grants is only a part of our service, The HCA Foundation has contributed more than $131M in grants to over 200 organizations and agencies in Middle Tennessee since 1998.</p>
 			</div>
 		</footer>
 	</div>
