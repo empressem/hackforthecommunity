@@ -455,6 +455,12 @@
 		content: '';
 	}
 	.print-logo{display: none;}
+	
+	.about-section .video-vimeo {
+		width 			: 720px; 
+		height			: 420px; 
+		border			: 1px solid #000;
+	}
 }
 
 /* ---------------------------------------------------------
@@ -602,6 +608,18 @@
 		top: 5px;
 		margin: 0;
 	}
+	
+	.about-section .video-vimeo {
+		width 			: 480px; 
+		height			: 280px; 
+	}
+}
+
+@media only screen and (max-width: 480px){
+	.about-section .video-vimeo {
+		width 			: 320px; 
+		height			: 220px; 
+	}
 }
 
 /* ---------------------------------------------------------
@@ -639,4 +657,8 @@
 		float: none;
 	}
 	.carousel .item .col{height: auto !important;}
+	
+	.about-section .video-vimeo { 
+		display : none;
+	}
 }
