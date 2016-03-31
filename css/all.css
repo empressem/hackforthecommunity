@@ -65,6 +65,9 @@
    ---------------------------------------------------------*/
 
 @media only screen{
+    a.alt-fg {
+        color: #fff;
+    }
 	body{min-width: 320px;}
 	/* main container of all the page elements */
 	#wrapper{
