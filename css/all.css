@@ -474,6 +474,16 @@
 		height			: 420px; 
 		border			: 1px solid #000;
 	}
+	
+	ul.faq {
+		padding-bottom	: 30px;
+		margin-bottom	: 30px;
+		border-bottom	: 1px solid #fff;
+	}
+	
+	ul.faq li a {
+		color			: #ffffff;
+	}
 }
 
 /* ---------------------------------------------------------
