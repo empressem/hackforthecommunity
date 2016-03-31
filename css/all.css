@@ -65,6 +65,9 @@
    ---------------------------------------------------------*/
 
 @media only screen{
+    a.alt-fg {
+        color: #fff;
+    }
 	body{min-width: 320px;}
 	/* main container of all the page elements */
 	#wrapper{
@@ -686,8 +689,11 @@
 		float: none;
 	}
 	.carousel .item .col{height: auto !important;}
+<<<<<<< HEAD
 	
 	.about-section .video-vimeo { 
 		display : none;
 	}
+=======
+>>>>>>> d612c9a... Links for ed ops, alt anchor style for green bg
 }
