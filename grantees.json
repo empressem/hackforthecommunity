@@ -1,0 +1,176 @@
+{
+    "pretty": true,
+    "data": {
+        "grantees": [
+          {
+            "name": "Adventure Science Center",
+            "blurb": "A twitter bot to change the color of the Center’s pyramid on-demand and spark an interest in science.",
+            "imgSrc": "/img/logos/ASC_logo_2014_Color.jpg",
+            "imgAlt": "Adventure Science Center",
+            "href": ""
+
+          },
+
+          {
+            "name": "Boys & Girls Clubs of Middle Tennessee",
+            "blurb": "A staff scheduling platform to provide safe spaces for children throughout the day.",
+            "imgSrc": "/img/logos/BGCMT Logo_Vertical_Hi Res_EPS - Copy.jpg",
+            "imgAlt": "Boys & Girls Clubs of Middle Tennessee",
+            "href": ""
+          },
+
+          {
+            "name": "Council on Aging of Middle Tennessee",
+            "blurb": "An easy to navigate online directory to improve care for older adults.",
+            "imgSrc": "/img/logos/COA_LOGO_PMS_AI.jpg",
+            "imgAlt": "Council on Aging of Middle Tennessee",
+            "href": ""
+          },
+
+          {
+            "name": "Faith Family Medical Center",
+            "blurb": "An online appointment scheduling system for patients.",
+            "imgSrc": "/img/logos/FFMClogo.jpg",
+            "imgAlt": "Faith Family Medical Center",
+            "href": ""
+          },
+
+          {
+            "name": "Gilda’s Club Nashville",
+            "blurb": "A streamlined client and volunteer registration.",
+            "imgSrc": "/img/logos/GildasNashville_AffiliateLogo.jpg",
+            "imgAlt": "Gilda’s Club Nashville",
+            "href": ""
+          },
+
+          {
+            "name": "Junior Achievement",
+            "blurb": "A volunteer opportunity map to help match volunteers with sites in their neighborhoods.",
+            "imgSrc": "/img/logos/JA of Middle Tennessee Green Gold.jpg",
+            "imgAlt": "Junior Achievement",
+            "href": ""
+          },
+
+          {
+            "name": "Monroe Harding",
+            "blurb": "A task management app for young people to learn life skills.",
+            "imgSrc": "/img/logos/MH logo_300 DPI RGB Tag.jpg",
+            "imgAlt": "Monroe Harding",
+            "href": ""
+          },
+
+          {
+            "name": "Nashville Adult Literacy Council",
+            "blurb": "A volunteer registration system to reduce client waitlists.",
+            "imgSrc": "/img/logos/NALC_Logo_Stacked.jpg",
+            "imgAlt": "Nashville Adult Literacy Council",
+            "href": ""
+          },
+
+
+          {
+            "name": "Nashville Public Library Foundation",
+            "blurb": "An online referral tool to connect clients to adult literacy services.",
+            "imgSrc": "/img/logos/13-A187 NPLF Logo FINAL.jpg",
+            "imgAlt": "Nashville Public Library Foundation",
+            "href": ""
+          },
+
+          {
+            "name": "PENCIL Foundation",
+            "blurb": "A volunteer tracking system to record community investment in MNPS schools.",
+            "imgSrc": "/img/logos/pencil-2016-logo.jpg",
+            "imgAlt": "PENCIL Foundation",
+            "href": ""
+          },
+
+          {
+            "name": "Prevent Child Abuse Tennessee",
+            "blurb": "An online inventory to help case workers provide families with the basics childcare supplies they need.",
+            "imgSrc": "/img/logos/PCA Logo_TN_2C.jpg",
+            "imgAlt": "Prevent Child Abuse Tennessee",
+            "href": ""
+          },
+
+          {
+            "name": "Project Return",
+            "blurb": "A job recommendation tool for staff to match former offenders with jobs.",
+            "imgSrc": "/img/logos/project-return-logo-final.jpg",
+            "imgAlt": "Project Return",
+            "href": ""
+          },
+
+          {
+            "name": "Renewal House",
+            "blurb": "A web-based tool to maintain compliance with governmental funding requirements.",
+            "imgSrc": "/img/logos/RHlogo.jpg",
+            "imgAlt": "Renewal House",
+            "href": ""
+          },
+
+          {
+            "name": "Safe Haven Family Shelter",
+            "blurb": "An online inventory system to improve tracking of in-kind donations.",
+            "imgSrc": "/img/logos/SafeHaven_Lgo_4c.jpg",
+            "imgAlt": "Safe Haven Family Shelter",
+            "href": ""
+          },
+
+          {
+            "name": "St. Luke’s Community House",
+            "blurb": "A mobile-friendly platform for volunteers and clients to register to serve and receive services.",
+            "imgSrc": "/img/logos/St. Luke's Logo.jpg",
+            "imgAlt": "St. Luke’s Community House",
+            "href": ""
+          },
+
+          {
+            "name": "Tennessee Respite Coalition",
+            "blurb": "A paper process into an online respite voucher application for caregivers.",
+            "imgSrc": "/img/logos/TRClogo_Right_Color_ForWeb.jpg",
+            "imgAlt": "Tennessee Respite Coalition",
+            "href": ""
+          },
+
+          {
+            "name": "The Community Foundation of Middle Tennessee",
+            "blurb": "An integrated solution to communicate with disaster relief grantees.",
+            "imgSrc": "/img/logos/CFMT logo Black.jpg",
+            "imgAlt": "The Community Foundation of Middle Tennessee",
+            "href": ""
+          },
+
+          {
+            "name": "The Nashville Food Project",
+            "blurb": "An online tool for volunteers to find the right opportunity to lend a hand.",
+            "imgSrc": "/img/logos/Nashville Food Project.jpg",
+            "imgAlt": "The Nashville Food Project",
+            "href": ""
+          },
+
+          {
+            "name": "Waves, Inc.",
+            "blurb": "A web-based tracking system for adults with disabilities to find employment.",
+            "imgSrc": "/img/logos/WavesLogo.jpg",
+            "imgAlt": "Waves, Inc.",
+            "href": ""
+          },
+
+          {
+            "name": "Nashville Conflict Resolution Center",
+            "blurb": "A survey by text platform to follow-up with mediation clients and improve services.",
+            "imgSrc": "",
+            "imgAlt": "Nashville Conflict Resolution Center",
+            "href": ""
+          },
+
+          {
+            "name": "Nashville Opera Association",
+            "blurb": "An interactive blog to encourage engagement in the classical arts.",
+            "imgSrc": "",
+            "imgAlt": "Nashville Opera Association",
+            "href": ""
+          }
+        ]
+    }
+}

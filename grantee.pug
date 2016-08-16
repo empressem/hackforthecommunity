@@ -1,0 +1,7 @@
+each grantee in data.grantees
+  .col
+    img(src=grantee.imgSrc, alt=grantee.imgAlt)
+    .caption
+      h3
+        a(href=grantee.href, target="_blank")= grantee.name
+      p= grantee.blurb
