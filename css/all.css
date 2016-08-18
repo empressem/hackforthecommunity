@@ -65,6 +65,19 @@
    ---------------------------------------------------------*/
 
 @media only screen{
+    .company-section .sponsor-row {
+        padding: 4rem 0;
+    }
+
+    .company-section .sponsor-logo-wrap {
+        text-align: center;
+        margin-top: 4rem;
+    }
+
+    .company-section .sponsor-logo-wrap img {
+        max-width: 150px;
+    }
+
     a.alt-fg {
         color: #fff;
     }
@@ -608,6 +621,7 @@
         margin: 0 0 20px;
     }
     .company-section .list img{margin: 0 auto;}
+
     #footer{
         padding: 90px 15px 20px;
     }
