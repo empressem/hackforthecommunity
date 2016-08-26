@@ -499,7 +499,7 @@
     }
     
     #tab-4 a,
-    ul.faq li a {
+    .tab-pane li a {
         color           : #ffffff;
     }
 }
